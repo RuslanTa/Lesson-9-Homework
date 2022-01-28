@@ -7,8 +7,8 @@ def recursive(a, b):
         print(a)
         recursive(a-1, b)
     elif a < b:
-        print(b)
         recursive(a, b-1)
+        print(b)
     else:
         print(a)
 
